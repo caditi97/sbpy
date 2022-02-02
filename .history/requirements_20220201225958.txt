@@ -1,0 +1,46 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+
+# ca-certificates=2021.10.26=hecd8cb5_2
+# certifi=2021.10.8=py38hecd8cb5_2
+# libcxx=12.0.0=h2f01273_0
+# libffi=3.3=hb1e8313_2
+# ncurses=6.3=hca72f7f_2
+# openssl=1.1.1m=hca72f7f_0
+# pip=21.2.4=py38hecd8cb5_0
+# python=3.8.12=h88f2d9e_0
+# readline=8.1.2=hca72f7f_1
+# setuptools=58.0.4=py38hecd8cb5_0
+# sqlite=3.37.0=h707629a_0
+# tk=8.6.11=h7bc2e8c_0
+# wheel=0.37.1=pyhd3eb1b0_0
+# xz=5.2.5=h1de35cc_0
+# zlib=1.2.11=h4dc903c_4
+
+# pip third party through pipreqa
+ads==0.12.3
+astropy==5.0.1
+astroquery==0.4.5
+ginga==3.2.0
+matplotlib==3.5.1
+mock==4.0.3
+# mskpy
+numpy==1.22.1
+photutils==1.3.0
+# pyradex==0.2.2
+pytest==6.2.5
+# pytest_astropy_header==0.2.0
+scipy==1.7.3
+setuptools==58.0.4
+setuptools_scm==6.4.2
+# sphinx_astropy==1.7.0
+synphot==1.1.1
+
+
+# PackagesNotFoundError: The following packages are not available from current channels:
+
+#   - pyradex==0.2.2
+#   - pytest_astropy_header==0.2.0
+#   - sphinx_astropy==1.7.0
+#   - mskpy
