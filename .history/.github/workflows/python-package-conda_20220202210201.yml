@@ -10,9 +10,9 @@ jobs:
   build:
     runs-on: ${{ matrix.os }}
     strategy:
-      fail-fast: false  
+    fail-fast: false
       matrix:
-        os: [macos-latest, windows-2022, ubuntu-latest]
+        os: [macos-latest, windows-latest, ubuntu-latest]
         python-version: [3.7, 3.8, 3.9]
     defaults:
       run:
@@ -35,7 +35,7 @@ jobs:
       - name: Install sbpy
         run: |
           python setup.py install
-      # - name: Test with pytest
-      #   run: |
-      #     pytest . --cov=.
+      - name: Test with pytest
+        run: |
+          pytest . --cov=.
 

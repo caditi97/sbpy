@@ -21,18 +21,37 @@ requirements:
   # Packages required to run the package. These are the dependencies that are installed automatically 
   # whenever the package is installed. 
   run:
+    # - ads
+    # - astropy
+    # - astroquery
+    # - ginga
+    # - ipykernel
+    # - matplotlib
+    # - mock
+    # - mskpy
+    # - numpy
+    # - pandas
+    # - photutils
+    # - pytest
+    # - pytest_astropy_header
+    # - pytest-cov
+    # - python {{ python }}
+    # - pyyaml
+    # - scipy
+    # - sphinx_astropy
+    # - synphot
     - numpy>=1.17.0
     - astropy>=4.0
     - ads>=0.12
     - synphot>=1.0
     - matplotlib>=3.0
-    - astroquery>=0.4.2.dev6218
+    astroquery>=0.4.2.dev6218
 
 # Specifies build information. 
 build:
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
-test: 
+test:
   imports:
     - sbpy
 
