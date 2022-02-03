@@ -30,6 +30,6 @@ jobs:
         CONDA_TOKEN: ${{ secrets.CONDA_TOKEN }}
       run: |
         conda config --set anaconda_upload yes
-        conda build -c caditi97 --token $CONDA_TOKEN --user $CONDA_USERNAME .
+        conda build -c defaults -c conda-forge -c astropy -c caditi97 --token $CONDA_TOKEN --user $CONDA_USERNAME .
 
         

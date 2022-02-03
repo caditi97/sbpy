@@ -39,4 +39,4 @@ test:
 about:
   home: https://github.com/caditi97/sbpy
   license: BSD-3 Clause
-  license_file: ./LICENSE.rst
+  license_file: licenses/LICENSE.rst
