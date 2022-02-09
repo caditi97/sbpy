@@ -5,7 +5,7 @@ package:
 
 # Specifies where the source code of the package is coming from. 
 source:
-  git_url: "https://github.com/caditi97/sbpy"
+  git_url: "https://github.com/moeyensj/thor.git"
   git_tag: "v{{ version }}"
 
 # Specifies the build and runtime requirements. Dependencies of these requirements are included automatically.

@@ -1,7 +1,7 @@
 #  Specifies package information.
 package:
   name: sbpy
-  version: "1.0.0"
+  version: "{{ version }}"
 
 # Specifies where the source code of the package is coming from. 
 source:
